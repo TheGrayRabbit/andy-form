@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2.5rem;
+    max-width: 340px;
+    background-color: wheat;
+}
+input[type="text"], input[type="password"]{
+    padding: 1.2rem;
+    border-radius: 0.7rem;
+    appearance: none;
+    outline: none;
+    border: transparent;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.5);
+}
+input[type="submit"]{
+    /* width: 50px; */
+    /* height: 50px; */
+    padding: .7rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
